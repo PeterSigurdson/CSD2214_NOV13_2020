@@ -1,9 +1,12 @@
-document.write("HELLO")
+function sayHello() {
+    alert("Hello World red blue")
+}
 
-function sayHello() { alert("Hello World") }
+function Elephant() {
 
 
-var 1 = 10;
-var 2 = 20;
+}
 
-document.write(var1 + var2);
+function square(number) {
+    return number * number;
+}
