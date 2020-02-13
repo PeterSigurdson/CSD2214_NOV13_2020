@@ -1,10 +1,21 @@
 <html>
 <head> <title>Peter's Great Page</title>
-</head>
+<script type="text/javascript">
+function sayHello2() { alert("Polar Bear") }
 
-<body>
+</script>
+</head>
+<body onLoad="sayHello2()">
+
+<script language="javascript" src='./myjavascriptfile.js'>
+    function sayHello() { alert("Hello World") }
+</script>
+
 <h1>Happy Valentine!!</h1>
 <img width = '400' src="./brownconylove.gif"/>
+
+Click here for the result
+<input type="button" onclick="sayHello()" value="Say Hello" />
 
 </Body>
 </html>
